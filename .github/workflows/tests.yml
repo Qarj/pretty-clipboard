@@ -14,4 +14,4 @@ jobs:
                   node-version: '16'
             - run: sudo apt install xsel
             - run: npm install
-            - run: npm test
+            - run: export GPG_TTY=$(tty) && npm test
