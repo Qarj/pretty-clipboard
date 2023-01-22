@@ -1,3 +1,11 @@
+# this project
+
+testHelper.json
+testHelperArguments.json
+testHelperCalls.json
+temp/
+dump.js
+
 # Logs
 logs
 *.log

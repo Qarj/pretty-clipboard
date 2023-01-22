@@ -1,0 +1,36 @@
+{
+    "name": "pretty-clipboard",
+    "version": "0.0.1",
+    "bin": {
+        "pc": "./index.js"
+    },
+    "description": "Pretty print the clipboard to console",
+    "main": "index.js",
+    "dependencies": {
+        "clipboardy": "^3.0.0",
+        "log-parsed-json": "^0.0.20"
+    },
+    "scripts": {
+        "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Qarj/pretty-clipboard.git"
+    },
+    "keywords": [
+        "clipboard",
+        "json",
+        "pretty",
+        "print",
+        "console"
+    ],
+    "author": "Qarj",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Qarj/pretty-clipboard/issues"
+    },
+    "homepage": "https://github.com/Qarj/pretty-clipboard#readme",
+    "devDependencies": {
+        "jest": "^29.3.1"
+    }
+}
