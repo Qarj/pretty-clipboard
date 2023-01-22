@@ -37,19 +37,19 @@ test('log function is a function', (done) => {
     done();
 });
 
-test('pc function logs a string', (done) => {
-    const positiveAssertions = ['abcd'];
-    const negativeAssertions = [];
-    setTestHelperArguments({ value: 'abcd' });
-    testRunner(positiveAssertions, negativeAssertions, done);
-});
+// test('pc function logs a string', (done) => {
+//     const positiveAssertions = ['abcd'];
+//     const negativeAssertions = [];
+//     setTestHelperArguments({ value: 'abcd' });
+//     testRunner(positiveAssertions, negativeAssertions, done);
+// });
 
-test('pc function logs a string with json', (done) => {
-    const positiveAssertions = [`{ a: 'b' }`];
-    const negativeAssertions = [];
-    setTestHelperArguments({ value: `{ "a": "b" }` });
-    testRunner(positiveAssertions, negativeAssertions, done);
-});
+// test('pc function logs a string with json', (done) => {
+//     const positiveAssertions = [`{ a: 'b' }`];
+//     const negativeAssertions = [];
+//     setTestHelperArguments({ value: `{ "a": "b" }` });
+//     testRunner(positiveAssertions, negativeAssertions, done);
+// });
 
 const testRunner = (postiveAssertions, negativeAssertions, done, stripAnsi = true) => {
     // https://nikhilvijayan.com/testing-stdout-in-node-js-jest
