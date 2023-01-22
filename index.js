@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { log } = require('log-parsed-json');
 
 async function main() {
