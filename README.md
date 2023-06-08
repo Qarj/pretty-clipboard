@@ -1,6 +1,8 @@
 # pretty-clipboard
 
-Pretty print the clipboard to console
+Pretty print JSON like objects found in the clipboard to console.
+
+Also dumps JSON found within strings recursively.
 
 ## Installation
 
@@ -25,3 +27,9 @@ pc
 Gives output
 
 ![output.png](./output.png)
+
+## Notes
+
+Repairs common JSON errors like single quotes, missing quotes, trailing commas, missing commas.
+
+Also repairs quoted keys and values e.g. as used in Kibana logs.
