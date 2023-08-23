@@ -34,6 +34,14 @@ To pretty print a correctly stringified JSON object, use `jc` instead (no colour
 jc
 ```
 
+## Bonus
+
+`uc` will unescape the clipboard contents (e.g. `\n` to newline, `\t` to tab, etc.`)
+
+```bash
+uc
+```
+
 ## Notes
 
 Repairs common JSON errors like single quotes, missing quotes, trailing commas, missing commas.

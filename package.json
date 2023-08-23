@@ -1,9 +1,10 @@
 {
     "name": "pretty-clipboard",
-    "version": "0.0.19",
+    "version": "0.0.20",
     "bin": {
         "pc": "./index.js",
-        "jc": "./jsonClipboard.js"
+        "jc": "./jsonClipboard.js",
+        "uc": "./unescapeClipboard.js"
     },
     "description": "Pretty print the clipboard to console",
     "main": "index.js",
