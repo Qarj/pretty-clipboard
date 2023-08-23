@@ -18,7 +18,7 @@ Say you have some JSON-like string in your clipboard among other text
 Some text {'foo': "bar", name: null, count: 1234, bool: true, python: None, "Object": { inner: 1, test: 'string'} } more text
 ```
 
-You can pretty print it to the console with
+You can pretty print it to the console using inspect with
 
 ```bash
 pc
@@ -27,6 +27,12 @@ pc
 Gives output
 
 ![output.png](./output.png)
+
+To pretty print a correctly stringified JSON object, use `jc` instead (no colours)
+
+```bash
+jc
+```
 
 ## Notes
 

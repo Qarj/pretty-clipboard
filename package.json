@@ -1,14 +1,15 @@
 {
     "name": "pretty-clipboard",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "bin": {
-        "pc": "./index.js"
+        "pc": "./index.js",
+        "jc": "./jsonClipboard.js"
     },
     "description": "Pretty print the clipboard to console",
     "main": "index.js",
     "dependencies": {
         "clipboardy": "^3.0.0",
-        "log-parsed-json": "^0.0.43"
+        "log-parsed-json": "^0.0.44"
     },
     "scripts": {
         "test": "jest"
