@@ -36,7 +36,7 @@ jc
 
 ## Bonus
 
-`uc` will unescape the clipboard contents (e.g. `\n` to newline, `\t` to tab, etc.`)
+`uc` will unescape the clipboard contents (e.g. `\n` to newline, html entities, url encoded characters).
 
 ```bash
 uc
@@ -51,7 +51,7 @@ line1\nline2\nline3\ttabbed
 test&amp;test &quot;hey&quot; &apos;there&apos;
 ```
 
-## Notes
+## Notes for `pc` and `jc`
 
 Repairs common JSON errors like single quotes, missing quotes, trailing commas, missing commas.
 
