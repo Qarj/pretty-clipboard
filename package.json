@@ -1,6 +1,6 @@
 {
     "name": "pretty-clipboard",
-    "version": "0.0.21",
+    "version": "0.0.22",
     "bin": {
         "pc": "./index.js",
         "jc": "./jsonClipboard.js",
@@ -10,6 +10,7 @@
     "main": "index.js",
     "dependencies": {
         "clipboardy": "^3.0.0",
+        "he": "^1.2.0",
         "log-parsed-json": "^0.0.44"
     },
     "scripts": {
