@@ -3,7 +3,7 @@
 async function main() {
     const { default: clipboard } = await import('clipboardy');
 
-    lconsole.log(decodeURIComponent(clipboard.readSync()));
+    console.log(decodeURIComponent(clipboard.readSync()));
 }
 main();
 
