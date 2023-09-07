@@ -45,6 +45,7 @@ uc
 Copy the following text to the clipboard and give it a go
 
 ```txt
+\u2728Hello\u2728
 %D1%88%D0%B5%D0%BB%D0%BB%D1%8B
 %3Fx%3Dtest\nHello%20World
 line1\nline2\nline3\ttabbed
