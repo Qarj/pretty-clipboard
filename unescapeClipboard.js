@@ -18,9 +18,22 @@ async function main() {
         }
         unescapedUnicode += '\n';
     }
-    const decodedText = decodeURIComponent(unescapedUnicode);
+
+    let decodedText = '';
+    try {
+        decodedText = decodeURIComponent(unescapedUnicode);
+    } catch (error) {
+        decodedText = unescapedUnicode;
+    }
+
     const unescapedText = decodedText.replace(/\\n/g, '\n').replace(/\\t/g, '\t');
-    const unescapedHtml = he.unescape(unescapedText);
+
+    let unescapedHtml = '';
+    try {
+        unescapedHtml = he.unescape(unescapedText);
+    } catch (error) {
+        unescapedHtml = unescapedText;
+    }
 
     console.log(unescapedHtml);
 }
