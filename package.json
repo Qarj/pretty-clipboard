@@ -1,6 +1,6 @@
 {
     "name": "pretty-clipboard",
-    "version": "0.0.28",
+    "version": "0.0.29",
     "bin": {
         "pc": "./index.js",
         "jc": "./jsonClipboard.js",
@@ -34,6 +34,7 @@
     },
     "homepage": "https://github.com/Qarj/pretty-clipboard#readme",
     "devDependencies": {
+        "eslint": "^8.57.0",
         "jest": "^29.3.1"
     }
 }

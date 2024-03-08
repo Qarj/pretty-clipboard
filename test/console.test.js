@@ -1,3 +1,5 @@
+/* eslint-disable no-empty */
+/* eslint-disable no-control-regex */
 // const pc = require('../index.js');
 const path = require('path');
 const { spawn } = require('child_process');
